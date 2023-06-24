@@ -3,4 +3,6 @@ body {
   font-display: swap;
   background-color: #141416;
   color: var(--color-text-primary);
+  margin: 0;
+  padding: 0;
 }

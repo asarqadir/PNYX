@@ -34,7 +34,6 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
         theme={darkTheme({
           accentColor: "#7b3fe4",
           accentColorForeground: "white",
-          borderRadius: "small",
           fontStack: "system",
           overlayBlur: "small",
         })}
