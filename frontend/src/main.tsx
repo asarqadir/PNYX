@@ -32,8 +32,8 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
         chains={chains}
         modalSize="compact"
         theme={darkTheme({
-          accentColor: "#7b3fe4",
-          accentColorForeground: "white",
+          accentColor: "white",
+          accentColorForeground: "black",
           fontStack: "system",
           overlayBlur: "small",
         })}
