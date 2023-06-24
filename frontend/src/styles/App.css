@@ -1,0 +1,14 @@
+.App {
+  width: 75%;
+  max-width: 800px;
+  margin: 0px auto;
+  border: 1px solid #303033;
+  border-width: thin;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    width: 100%;
+  }
+}

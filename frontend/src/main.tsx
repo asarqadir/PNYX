@@ -31,6 +31,13 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
       <RainbowKitProvider
         chains={chains}
         modalSize="compact"
+        theme={darkTheme({
+          accentColor: "#7b3fe4",
+          accentColorForeground: "white",
+          borderRadius: "small",
+          fontStack: "system",
+          overlayBlur: "small",
+        })}
       >
         <App />
       </RainbowKitProvider>
