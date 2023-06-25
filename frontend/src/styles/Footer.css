@@ -10,8 +10,25 @@
   max-width: 800px;
   margin: 0px auto;
   justify-self: center;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+    margin: none    ;
+  padding: 15px 0px;
 }
+
+.discover, .profile {
+    width: 30px;
+}
+.profileDiv, .discoverDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activeDot {
+    position: absolute;
+    top: 48px;
+    text-align: center;
+    width: 6px;
+}
+
