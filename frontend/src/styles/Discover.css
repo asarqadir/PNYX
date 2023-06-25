@@ -1,4 +1,9 @@
 .Discover {
-    height: 1000px;
-      padding: 0px 50px;
+    min-height: 100vh;
+    padding: 0px 50px;
+}
+
+.cube {
+    width: 300px;
+    height: 300px;
 }
