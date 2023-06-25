@@ -1,0 +1,17 @@
+.Footer {
+  position: fixed;
+  left: auto;
+  right: auto;
+  bottom: 0;
+  width: 100%;
+  border-width: thin;
+  box-sizing: border-box;
+  width: 75%;
+  max-width: 800px;
+  margin: 0px auto;
+  justify-self: center;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
