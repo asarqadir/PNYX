@@ -1,9 +1,16 @@
 body {
-  font-family: 'DM Sans';
-  font-display: swap;
+  font-family: 'Poppins', sans-serif;
+
   background-color: #141416;
-  color: var(--color-text-primary);
+  color: white;
   margin: 0;
   padding: 0;
-}
+} 
 
+
+
+
+h1, h2, h3 {
+  font-family: 'Archivo', sans-serif;
+  color: white;
+}
