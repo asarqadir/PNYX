@@ -1,10 +1,13 @@
-import "../styles/Discover.css"
-import Spline from "@splinetool/react-spline";
-
+import "../styles/Discover.css";
+import cube from "../assets/cube.png";
+import { useState } from "react";
 export default function Discover() {
-    return (
-      <div className="Discover">
-        <Spline className="cube" scene="https://prod.spline.design/lCq1bZmumpwTeaZN/scene.splinecode" />
-      </div>
-    );
+  const [song, setSong] = useState("");
+  return (
+    <div className="Discover">
+      <img className="cube" src={cube}></img>
+      <audio controls src={song}></audio>
+      <div></div>
+    </div>
+  );
 }
